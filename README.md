@@ -22,14 +22,8 @@ Además, se implementan pruebas unitarias utilizando JUnit para asegurar la cali
 
 ### Instalación de Gradle con Chocolatey
 
-1. **Instalar Chocolatey:** Si no tienes Chocolatey instalado, abre una terminal con permisos de administrador y ejecuta:
+1. **Instalar Chocolatey:** Si no tienes Chocolatey instalado, visita su página oficial y sigue las instrucciones: [https://community.chocolatey.org/](https://community.chocolatey.org/).
 
-    ```powershell
-    Set-ExecutionPolicy Bypass -Scope Process -Force; `
-    [System.Net.ServicePointManager]::SecurityProtocol = `
-    [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; `
-    iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-    ```
 
 2. **Instalar Gradle:** Una vez instalado Chocolatey, ejecuta el siguiente comando en la terminal:
 
