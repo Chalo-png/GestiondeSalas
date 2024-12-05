@@ -1,3 +1,4 @@
+
 # Sistema de Gestión de Reservas de Salas
 
 ## Descripción del diseño del programa
@@ -48,3 +49,85 @@ Clona el repositorio desde GitHub:
 
 ```bash
 git clone https://github.com/tu-usuario/GestiondeSalas.git
+```
+
+## Compilar y Ejecutar el Programa
+
+### Navegar al Directorio del Proyecto:
+
+```bash
+cd GestiondeSalas
+```
+
+### Compilar el Programa:
+
+Utiliza Gradle para compilar el proyecto:
+
+```bash
+gradle build
+```
+
+### Ejecutar el Programa:
+
+Después de compilar, ejecuta el programa con:
+
+```bash
+gradle run
+```
+
+## Uso del Programa
+
+### Menú Principal:
+
+- Al iniciar el programa, se mostrará el menú principal con opciones para gestionar usuarios, salas y reservas.
+- Selecciona la opción deseada ingresando el número correspondiente y presiona Enter.
+
+### Gestión de Usuarios:
+
+- **Agregar Usuario:** Ingresa los datos solicitados (identificador, nombre, departamento y descripción).
+- **Listar Usuarios:** Muestra todos los usuarios registrados.
+- **Actualizar Usuario:** Proporciona el identificador del usuario a actualizar y los nuevos datos.
+- **Eliminar Usuario:** Ingresa el identificador del usuario que deseas eliminar.
+
+### Gestión de Salas:
+
+- **Agregar Sala:** Introduce el código, nombre y ubicación de la sala.
+- **Listar Salas:** Muestra todas las salas disponibles con su estado de reserva.
+- **Actualizar Sala:** Proporciona el código de la sala a actualizar y los nuevos datos.
+- **Eliminar Sala:** Ingresa el código de la sala que deseas eliminar.
+
+### Gestión de Reservas:
+
+- **Agregar Reserva:** Introduce el código de la sala, identificador del usuario, fecha (formato YYYY-MM-DD) y detalle de la reserva.
+- **Listar Reservas:** Muestra todas las reservas existentes.
+- **Actualizar Reserva:** Proporciona los detalles de la reserva a actualizar y los nuevos datos.
+- **Eliminar Reserva:** Ingresa los detalles de la reserva que deseas eliminar.
+
+### Salir:
+
+- Selecciona la opción de salir para finalizar el programa.
+
+## Reporte de resultados de las pruebas unitarias
+
+Se han implementado pruebas unitarias utilizando JUnit para garantizar la correcta funcionalidad de las operaciones CRUD y las restricciones de reservas. A continuación se detalla el estado de las pruebas:
+
+### Pruebas de Usuarios:
+
+- Creación, actualización, lectura y eliminación de usuarios.
+- Validación de que no se pueden crear usuarios duplicados.
+
+### Pruebas de Salas:
+
+- Creación, actualización, lectura y eliminación de salas.
+- Verificación del estado de reserva de las salas.
+
+### Pruebas de Reservas:
+
+- Creación, actualización, lectura y eliminación de reservas.
+- Aseguramiento de que una sala no pueda ser reservada por múltiples usuarios en la misma fecha.
+- Validación de que un usuario no pueda tener más de una reserva en la misma fecha.
+
+### Resultados:
+
+Todas las pruebas unitarias han pasado exitosamente, lo que confirma que las funcionalidades del programa cumplen con los requisitos establecidos y que las restricciones de reserva se aplican correctamente. Esto asegura la fiabilidad y estabilidad del sistema de gestión de reservas de salas.
+```
