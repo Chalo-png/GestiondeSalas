@@ -130,4 +130,3 @@ Se han implementado pruebas unitarias utilizando JUnit para garantizar la correc
 ### Resultados:
 
 Todas las pruebas unitarias han pasado exitosamente, lo que confirma que las funcionalidades del programa cumplen con los requisitos establecidos y que las restricciones de reserva se aplican correctamente. Esto asegura la fiabilidad y estabilidad del sistema de gestión de reservas de salas.
-```
