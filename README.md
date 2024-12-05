@@ -47,4 +47,4 @@ Además, se implementan pruebas unitarias utilizando JUnit para asegurar la cali
 Clona el repositorio desde GitHub:
 
 ```bash
-git clone https://github.com/tu_usuario/gestion-salas.git
+git clone https://github.com/tu_usuario/gestion-salas.git](https://github.com/Chalo-png/GestiondeSalas.git
